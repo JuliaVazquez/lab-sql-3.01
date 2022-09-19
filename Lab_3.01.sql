@@ -38,3 +38,5 @@ SELECT * FROM sakila.rental;
 -- I think we could refer the category in the film table, because there is only one category per film and we would be able to drop film_category.
 -- We could remove film_text or add the description column to the film table, but it's not information that is going to be needed or usefull for analysis, because it's unique for each film
 -- We could remove city and country tables as long as we have only 2 stores in 2 countries, but we saw that there are lots of customers from a lot of countries and cities and we don't really understand that data.
+-- We can drop the column address2 from the table address, because it doesn't have any information
+
